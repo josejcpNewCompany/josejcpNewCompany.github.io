@@ -34,7 +34,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    background: #f8f8f8;
+    background: #ffffff;
 }
 
 .B-Navegacion a{
@@ -103,9 +103,9 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    background: #f8f8f8;
+    background: #ffffff;
     margin: 0px 0px 0px 0px;
-    padding: 20vh 0vw 15vh 0vw;
+    padding: 20vh 0vw 16.5vh 0vw;
 }
 
 .conte-2{
@@ -125,6 +125,7 @@ body{
 
 .Metrica-logro{
     display: flex;
+    align-items: center;
     margin: 0px 1vw 6vh 0px ;
 }
 
@@ -135,7 +136,8 @@ body{
 }
 
 .Metrica-logro img{
-    width: 3vw;
+    width: 2vw;
+    margin: 0px 0.6vw 0px 0px;
 }
 
 .conte-2 a{
@@ -165,7 +167,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0px 1.5vw 2vh 2vw;
-    background: #f8f8f8;
+    background: #ffffff;
 }
 
 .barra-cont h4{
@@ -193,16 +195,66 @@ body{
 }
 
 /*------------------Contenido--------------------*/
-.Sec-1{
-    margin: 0vh 0vw 0vh 0vw;
+.Sec1-Contenido{
+    text-align: center;
+    margin: 4vh 2vw 4vh 2vw;
+    padding: 1vh 2vw 3vh 2vw;
 }
 
-section{
-    margin: 0px 2vw 0px 2vw;
+.Sec1-Contenido h2{
+    font-size: 3vw;
+    margin: 0vh 0vw 2.2vh 0vw;
 }
 
-p{
-    white-space: inherit;
+.Sec1-Contenido p{
+    color: rgb(87, 87, 87);
+    font-size: 1.3vw;
+    margin: 0vh 4vw 3vh 4vw;
+}
+
+.cont-Contenido{
+    display: flex;
+    gap: 1.5vw;
+    text-align: start;
+    padding: 2vh 1vw 3vh 1vw;
+}
+
+.cont-Contenido a{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+.cont-Contenido div{
+    overflow: hidden;
+    width: 21vw;
+    height: 55vh;
+    border-radius: 1vw;
+    background: rgb(243, 243, 243);
+    transition: 0.3s ease;
+}
+
+.cont-Contenido div:hover{
+    background: rgb(255, 242, 210);
+    transform: scale(1.05);
+}
+
+.cont-Contenido img{
+    width: 21vw;
+    height: 35vh;
+    border-top-left-radius: 1vw;
+    object-fit: cover;
+}
+
+.cont-Contenido h3{
+    font-size: 1.5vw;
+    margin: 2vh 2vw 2vh 1.5vw;
+}
+
+.cont-Contenido p{
+    font-size: 1.2vw;
+    color: rgb(97, 97, 97);
+    text-align: justify;
+    margin: 0vh 2vw 1vh 1.5vw;
 }
 
 /*------------------Resolucion-en-Tabletas---------------------*/
@@ -213,6 +265,7 @@ p{
 .B-Navegacion{
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid rgb(228, 228, 228);
 }
 
 .logo{
@@ -256,6 +309,7 @@ p{
     width: 100%;
     bottom: 0;
     background: rgb(255, 255, 255);
+    border-top: 2px solid rgb(228, 228, 228);
 }
 
 .cont-Barra-N div{
@@ -351,7 +405,6 @@ p{
     gap: 2vw;
     align-items: center;
     padding: 0px 1.5vw 7.5vh 2vw;
-    background: #f8f8f8;
 }
 
 .barra-cont h4{
@@ -376,6 +429,76 @@ p{
 
 .b-cnt-correo a:hover{
     opacity: 80%;
+}
+
+/*----------------Seccio-Contenido-------------*/
+
+.Sec1-Contenido{
+    text-align: start;
+    margin: 2vh 4vw 8vh 4vw;
+    padding: 1vh 0vw 3vh 0vw;
+}
+
+.Sec1-Contenido h2{
+    font-size: 5vw;
+    margin: 0vh 0vw 1.5vh 0vw;
+}
+
+.Sec1-Contenido p{
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-size: 2.5vw;
+    margin: 0vh 0vw 1vh 0vw;
+}
+
+.cont-Contenido{
+    overflow: scroll;
+    display: flex;
+    gap: 1.5vw;
+    text-align: start;
+    padding: 2vh 0vw 3vh 0vw;
+}
+
+.cont-Contenido::-webkit-scrollbar{
+    display: none;
+}
+
+.cont-Contenido a{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+.cont-Contenido div{
+    overflow: hidden;
+    width: 35vw;
+    height: 37vh;
+    border-radius: 1vw;
+    background: rgb(243, 243, 243);
+    transition: 0.3s ease;
+}
+
+.cont-Contenido div:hover{
+    background: rgb(255, 242, 210);
+    transform: scale(1.05);
+}
+
+.cont-Contenido img{
+    width: 35vw;
+    height: 25vh;
+    border-top-left-radius: 1vw;
+    object-fit: cover;
+}
+
+.cont-Contenido h3{
+    font-size: 3vw;
+    margin: 1.5vh 2vw 1vh 1.5vw;
+}
+
+.cont-Contenido p{
+    font-size: 2vw;
+    color: rgb(97, 97, 97);
+    text-align: inherit;
+    margin: 0vh 2vw 1vh 1.5vw;
 }
 
 }
@@ -431,6 +554,7 @@ p{
     width: 100%;
     bottom: 0;
     background: rgb(255, 255, 255);
+    border-top: 2px solid rgb(236, 236, 236);
 }
 
 .cont-Barra-N div{
@@ -456,7 +580,7 @@ p{
     flex-wrap: wrap-reverse;
     justify-content: center;
     margin: 0px 0px 0px 0px;
-    padding: 15vh 0vw 8vh 0vw;
+    padding: 22vh 0vw 10vh 0vw;
 }
 
 .conte-2{
@@ -489,7 +613,7 @@ p{
 }
 
 .Metrica-logro img{
-    width: 4vw;
+    width: 5vw;
 }
 
 .conte-2 a{
@@ -526,7 +650,6 @@ p{
     gap: 2vw;
     align-items: center;
     padding: 0px 1.5vw 8vh 2vw;
-    background: #f8f8f8;
 }
 
 .barra-cont h4{
@@ -551,6 +674,76 @@ p{
 
 .b-cnt-correo a:hover{
     opacity: 80%;
+}
+
+/*----------------Seccio-Contenido-------------*/
+
+.Sec1-Contenido{
+    text-align: start;
+    margin: 2vh 4vw 6vh 4vw;
+    padding: 1vh 0vw 3vh 0vw;
+}
+
+.Sec1-Contenido h2{
+    font-size: 6.5vw;
+    margin: 0vh 0vw 1.2vh 0vw;
+}
+
+.Sec1-Contenido p{
+    text-align: justify;
+    color: rgb(87, 87, 87);
+    font-size: 2.8vw;
+    margin: 0vh 0vw 0.5vh 0vw;
+}
+
+.cont-Contenido{
+    overflow: scroll;
+    display: flex;
+    gap: 1.5vw;
+    text-align: start;
+    padding: 2vh 0vw 3vh 0vw;
+}
+
+.cont-Contenido::-webkit-scrollbar{
+    display: none;
+}
+
+.cont-Contenido a{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+.cont-Contenido div{
+    overflow: hidden;
+    width: 45vw;
+    height: 38vh;
+    border-radius: 1vw;
+    background: rgb(243, 243, 243);
+    transition: 0.3s ease;
+}
+
+.cont-Contenido div:hover{
+    background: rgb(255, 242, 210);
+    transform: scale(1.05);
+}
+
+.cont-Contenido img{
+    width: 45vw;
+    height: 28vh;
+    border-top-left-radius: 1vw;
+    object-fit: cover;
+}
+
+.cont-Contenido h3{
+    font-size: 3.8vw;
+    margin: 1vh 1.5vw 1vh 1.5vw;
+}
+
+.cont-Contenido p{
+    font-size: 2.3vw;
+    color: rgb(97, 97, 97);
+    text-align: inherit;
+    margin: 0vh 2vw 1vh 1.5vw;
 }
 
 }
